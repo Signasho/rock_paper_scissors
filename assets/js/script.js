@@ -48,10 +48,3 @@ const choices = [rockIcon, paperIcon, scissorsIcon];
             machinePlay.innerHTML = machineGame;
             resultGame.textContent = result;
         }
-    
-
-
-
-
-
-
