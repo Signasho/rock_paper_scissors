@@ -23,6 +23,14 @@
                     <i class="fa-regular fa-hand"></i>
                     <i class="fa-regular fa-hand-scissors"></i>
                 </h1>
+                <div class="icons me-5 my-5 text-center">
+                    <button onclick="playGame('rock')" id="rock" class="btn btn-outline-warning text-white"><i
+                            class="fa-regular fa-hand-back-fist fa-2xl"></i></button>
+                    <button onclick="playGame('paper')" id="paper" class="btn btn-outline-warning text-white"><i
+                            class="fa-regular fa-hand fa-2xl"></i></button>
+                    <button onclick="playGame('scissors')" id="scissors" class="btn btn-outline-warning text-white"><i
+                            class="fa-regular fa-hand-scissors fa-2xl"></i></button>
+                </div>
             </div>
         </div>
     </header>
@@ -33,23 +41,25 @@
         <div class="row">
             <div class="col-6">
                 <div id="leftgame" class="text-end">
-                    <h2 class="my-5">JUEGO USUARIO</h2>
-                    <div class="icons me-5">
-                        <button id="rock" class="btn btn-outline-warning text-white"><i
-                                class="fa-regular fa-hand-back-fist fa-2xl"></i></button>
-                        <button id="paper" class="btn btn-outline-warning text-white"><i
-                                class="fa-regular fa-hand fa-2xl"></i></button>
-                        <button id="scissors" class="btn btn-outline-warning text-white"><i
-                                class="fa-regular fa-hand-scissors fa-2xl"></i></button>
+                    <h2 class="user-text my-5">USUARIO</h2>
+                    <div class="my-5 me-5" id="userSelection">
+
                     </div>
+
                 </div>
             </div>
             <div class="col-6">
                 <div id="rightgame" class="text-start">
-                    <h2>JUEGO COMPUTADORA</h2>
+                    <h2 class="machine-text my-5">COMPUTADORA</h2>
+                    <div class="text-start ms-5" id="machineGame">
+
+                    </div>
 
                 </div>
             </div>
+        </div>
+        <div id="result" class="text-center fs-1">
+
         </div>
 
     </section>
